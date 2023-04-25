@@ -2,6 +2,9 @@ import'./home.css'
 import { Link } from 'react-router-dom'
 import projeto1 from '../../assets/projeto1.png'
 import projeto2 from '../../assets/projeto2.png'
+import projeto3 from '../../assets/Capa.png'
+import projeto3sob from '../../assets/Sobre.png'
+import Sobreprojeto3 from '../../assets/Paleta.png'
 
 function Home(){
     return(
@@ -41,6 +44,15 @@ function Home(){
                         </p>
                         <img className='img-projeto' src={projeto2} alt='projeto portifolio' />
                         <a className='link-projeto' href='https://leticiacoelho.netlify.app/' target='_blank'> Acesse →</a>
+                    </li> 
+                    <li className='item-projeto'>
+                        <h2 className='titulo-projetos'>Projeto 03</h2>
+                        <p className='p-projetos'>
+                            Projeto Adoções de animais, projeto desenvolvimento UI, criação de telas no figma. 
+                        </p>
+                        <img className='img-projeto' src={projeto3} alt='projeto figma' />
+                        <img className='img-projeto' src={projeto3sob} alt='projeto figma' />
+                        <img className='img-projeto' src={Sobreprojeto3} alt='projeto portifolio' />
                     </li> 
                 </ul>
             </div>

@@ -17,15 +17,11 @@ function Sobre (){
                 Habilidades
             </p>
             <p className="cont-habilidade">
-                <span className="impact">FRONT-END:</span>
-                HTML, CSS, JS, REACTJS
+                HTML, CSS, JS, REACTJS, SQL, PYTHON, UX-UI, QA
             </p>
-            <p className="cont-habilidade">
-                <span className="impact">DADOS:</span>
-                EXCEL,PHYTON, SQL, PANDAS, R
-            </p>
+            
 
-            </div>
+        </div>
             <div className="image">
                 <img className="eu" src={eu} alt='Desenvolvedora Letícia Coelho' />
             </div>

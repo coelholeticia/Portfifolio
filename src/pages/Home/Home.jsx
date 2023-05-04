@@ -51,13 +51,13 @@ function Home(){
                             Projeto Adoções de animais, projeto desenvolvimento UI, criação de telas no figma. 
                         </p>
                         <img className='img-projeto' src={projeto3} alt='projeto figma' />
-                        <img className='img-projeto' src={projeto3sob} alt='projeto figma' />
-                        <img className='img-projeto' src={Sobreprojeto3} alt='projeto portifolio' />
+                        <a className='link-projeto' href='https://www.behance.net/gallery/169183195/MI-AU' target='_blank'> Acesse →</a>
                     </li> 
                 </ul>
             </div>
             <div className='botao'>
-                    <a className='link-github' href='https://github.com/coelholeticia' target='_blank'> Vejam meu GITHUB </a>   
+                    <a className='link-github' href='https://github.com/coelholeticia' target='_blank'> Vejam meu GITHUB </a> 
+                    <a className='link-github' href='https://www.behance.net/coelholett9af7' target='_blank'> Vejam meu BEHANCE </a>     
             </div>
 
             

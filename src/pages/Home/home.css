@@ -83,16 +83,19 @@
 
 .botao{
     text-align: center;
+   
 }
 
 .link-github{
     text-decoration: none;
-    background-color: #1E1E1E;
     padding: 10px 15px;
-    border-radius: 10px;
     font-size: 1rem;
-    color: #fff;
+    color: #141414;
+    font-weight: bold;
+    border: solid 1px #1E1E1E;
+    
 }
+
 
 @media(max-width: 790px){
 
